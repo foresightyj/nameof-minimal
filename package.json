@@ -1,0 +1,21 @@
+{
+    "name": "nameof-minimal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel ./src --out-dir ./lib --extensions \".js,.ts\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-plugin-macros": "^2.8.0",
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "@babel/preset-typescript": "^7.8.3",
+        "ts-nameof.macro": "^4.2.1"
+    }
+}

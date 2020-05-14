@@ -11,5 +11,5 @@ module.exports = {
     ],
     "@babel/preset-typescript",
   ],
-  plugins: [["babel-plugin-macros"]],
+  plugins: ["babel-plugin-macros", "babel-plugin-ts-nameof"],
 };

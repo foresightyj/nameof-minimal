@@ -1,4 +1,4 @@
-import nameof from "ts-nameof.macro";
+// import nameof from "ts-nameof.macro";
 
 interface Model {
   Data: {
@@ -15,4 +15,5 @@ const m: Model = {
 };
 
 const i = 1;
+console.log(nameof.full(m.Data[i].Title));
 console.log(nameof.full(m.Data[nameof.interpolate(i)].Title));
